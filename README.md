@@ -4,7 +4,7 @@
 
 I love Pizza. It is hands Down my favorite food. That is a big problem for me for a few reasons; My family lives ina rural area with no delivery, and we are vegan. Because of this I have had to learn to make it myself. I decided to make a fun app so that we can sort of have the experieince of ordering online.
 
-**Link to project:** BohoCabinPizza.netlify.app
+**Link to project:** https://BohoCabinPizza.netlify.app/
 
 
 ## How It's Made:
@@ -20,7 +20,7 @@ This started with each "submission" generating a new DOM element that used the n
 
 ## Lessons Learned:
 
-I have been so focused on Javascript lately that this project was a great refresher on CSS. It also was a good lesson on using locaStorage to make my life easier. 
+I have been so focused on Javascript lately that this project was a great refresher on CSS. It also was a good lesson on using localStorage to make my life easier. 
 
 
 ## Planned Updates
