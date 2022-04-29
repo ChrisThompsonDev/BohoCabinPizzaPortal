@@ -20,7 +20,7 @@ This started with each "submission" generating a new DOM element that used the n
 
 ## Lessons Learned:
 
-I have been so focused on Javascript lately that this project was a great refresher on CSS. It also was a good lesson on using locaStorage to make my life easier. 
+I have been so focused on Javascript lately that this project was a great refresher on CSS. It also was a good lesson on using localStorage to make my life easier. 
 
 
 ## Planned Updates
