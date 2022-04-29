@@ -4,7 +4,7 @@
 
 I love Pizza. It is hands Down my favorite food. That is a big problem for me for a few reasons; My family lives ina rural area with no delivery, and we are vegan. Because of this I have had to learn to make it myself. I decided to make a fun app so that we can sort of have the experieince of ordering online.
 
-**Link to project:** BohoCabinPizza.netlify.app
+**Link to project:** https://BohoCabinPizza.netlify.app/
 
 
 ## How It's Made:
