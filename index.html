@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+		<title>Boho Cabin Pizza Portal</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header id="header">
+			<img src="images/bohoLogo.png">
+			<h1>Boho Cabin Pizza Portal</h1>
+		</header>
+
+		<aside>
+			<h2>Submitted Orders</h2>
+			<button id="clear">Clear Orders</button>
+			<div id="orders"></div>
+		</aside>
+
+		<main>
+			<h2>Ordering Tool</h2>
+			<form action="" method="get">
+				<input type="text" name="name" id="name" placeholder="Enter Your Name">
+			</form>
+			<h2>Toppings:</h2>
+			<div class="toppingsDiv">
+				<div class="toppings" id="cheeseDiv">
+					<input type="checkbox" id="cheese" name="Xtra Cheese">
+					<label for="cheese">Xtra Cheese</label>
+				</div>
+				
+				<div class="toppings" id="olivesDiv">
+					<input type="checkbox" id="olives" name="Olives">
+					<label for="olives">Olives</label>
+				</div>
+
+				<div class="toppings" id="artichokeDiv">
+					<input type="checkbox"  id="artichoke" name="Artichoke Hearts">
+					<label for="artichoke">Artichoke Hearts</label>
+				</div>
+				
+				<div class="toppings" id="onionDiv">
+					<input type="checkbox"  id="onion" name="Onion">
+					<label for="onion">Onion</label>
+				</div>
+				
+				<div class="toppings" id="broccoliDiv">
+					<input type="checkbox"  id="broccoli" name="Broccoli">
+					<label for="broccoli">Broccoli</label>
+				</div>
+				
+				<div class="toppings" id="bananaPeppersDiv">
+					<input type="checkbox"  id="bananaPeppers" name="Banana Peppers">
+					<label for="bananaPeppers">Banana Peppers</label>
+				</div>
+				
+				<div class="toppings" id="bellPeppersDiv">
+					<input type="checkbox"  id="bellPeppers" name="Bell Peppers">
+					<label for="bellPeppers">Bell Peppers</label>
+				</div>
+				
+			</div>
+			
+			<button id="submit">Submit</button>
+		</main>
+
+
+
+		<footer>
+			<div id="footerDiv">
+				<p class="copyright">&copy; <a href='https://www.christhompsondev.com/' target="_blank">Chris Thompson</a>. All rights reserved.</p>
+			</div>
+			
+		</footer>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

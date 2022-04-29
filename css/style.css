@@ -1,0 +1,220 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+     font-size: 62.5%;
+     width: 100vw;
+     height: 100vh;
+     font-family: 'Didact Gothic', sans-serif;
+     text-transform: uppercase;
+     font-weight: 900;
+}
+body {
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#header {
+     width: 100vw;
+     height: 7vh;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     /* border: 1px solid black; */
+     background: #006491;
+     color: white;
+     padding: 10px 0;
+     -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+     -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+header h1 {
+     margin-left: 5px;
+     text-align: center;
+     font-size: 3.5rem;
+     text-align: center;
+}
+aside {
+     width: 25vw;
+     height: 90vh;
+     border-right: 1px solid black;
+     padding: 10px;
+}
+main {
+     width: 75vw;
+     height: 90vh;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     text-align: center;
+     /* margin-right: 25vw; */
+     border-left: 1px solid black;
+     padding: 10px;
+}
+main h2 {
+     font-size: 4rem;
+     font-weight: 900;
+     color: #006491;
+     margin-bottom: 20px;;
+}
+input[type="text"] {
+     width: 300px;
+     height: 40px;
+     font-size: 2rem;
+     text-align: center;
+ }
+h2 {
+     font-size: 3rem;
+     margin-top: 5%;
+     font-weight: 900;
+     color: #006491;
+}
+.toppingsDiv {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 0 0% 0 5%;
+}
+.toppings {
+     width: 33.333%;
+     text-align: left;
+     margin-top: 5%;
+
+}
+input[type="checkbox"] {
+     width: 50px;
+     height: 40px;
+     font-size: 2rem;
+     vertical-align: middle;
+}
+label {
+     display: inline-block;
+     font-size: 2rem;
+}
+#submit, #clear {
+     margin: 0 auto;
+     margin-top: 5%;
+     width: 200px;
+     height: 50px;
+     font-size: 2rem;
+     background: #006491;
+     color: white;
+     font-family: 'Didact Gothic', sans-serif;
+     text-transform: uppercase;
+}
+aside {
+     text-align: center;
+     
+}
+
+aside h3 {
+     font-size: 2rem;
+     text-decoration: underline;
+     margin-bottom: 10px;
+}
+#orders div {
+     margin-top: 15px;
+}
+#orders div ul {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-align: center;
+     font-size: 1.5rem;
+}
+#orders div ul li {
+     width: 100%;
+}
+#clear {
+
+     margin: 10% 0;
+}
+footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+}
+#footerDiv {
+     font-size: 1.5rem;;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
