@@ -218,3 +218,245 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* LARGER MOBILE DEVICES PORTRAIT */
+@media (max-width: 912px) {
+     header {
+          height: 5%;
+          margin: 0;
+     }
+     header h1 {
+          font-size: 4rem;
+     }
+     aside {
+          width: 100%;
+          height: 10%;
+          margin: 0;
+          border: none;
+     }
+     aside h2 {
+          font-size: 3rem;
+     }
+     aside #orders {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+     }
+     aside #orders div h3 {
+          font-size: 2rem;
+     }
+     aside #orders div ul li {
+          font-size: 2rem;
+     }
+
+     main {
+          width: 100%;
+          height: 80%;
+          margin: 0;
+          border-top: 1px solid black;
+          border-left: none;
+          display: flex;
+          justify-content: center;
+     }
+     main h2 {
+          font-size: 3rem;
+          margin-top: 5%;
+     }
+     .toppingsDiv {
+          display: flex;
+          flex-wrap: wrap;
+     }
+     .toppingsDiv .toppings {
+          flex: 2 0 50%;
+     }
+    
+     input[type="checkbox"] {
+          width: 30px;
+          height: 30px;
+          font-size: 4rem;
+          vertical-align: middle;
+     }
+     label {
+          display: inline-block;
+          font-size: 3rem;
+     }
+
+     
+     #submit, #clear  {
+          width: 150px;
+          height: 70px;
+          font-size: 2.5rem;
+          margin: 5%;
+     }
+     #submit {
+          margin: 5% auto;
+     }
+}
+@media (max-width: 550px) {
+     header h1 {
+          font-size: 3rem;
+     }
+}
+/* MOBILE PORTRAIT MODE */
+@media (max-width: 450px) {
+     body * {
+          margin: 0;
+     }
+     header {
+          height: 5%;
+          margin: 0;
+     }
+     header h1 {
+          font-size: 2rem;
+     }
+     aside {
+          width: 100%;
+          height: 10%;
+          margin: 0;
+          border: none;
+     }
+     aside h2 {
+          font-size: 2rem;
+     }
+     aside #orders {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+     }
+     aside #orders div h3 {
+          font-size: 1rem;
+     }
+     aside #orders div ul li {
+          font-size: 1rem;
+     }
+
+     main {
+          width: 100%;
+          height: 80%;
+          margin: 0;
+          border-top: 1px solid black;
+          border-left: none;
+          display: flex;
+          justify-content: center;
+     }
+     main h2 {
+          font-size: 2rem;
+          margin-top: 5%;
+     }
+     .toppingsDiv {
+          display: flex;
+          flex-wrap: wrap;
+     }
+     .toppingsDiv .toppings {
+          flex: 2 0 50%;
+     }
+    
+     input[type="checkbox"] {
+          width: 30px;
+          height: 30px;
+          font-size: 2rem;
+          vertical-align: middle;
+     }
+     label {
+          display: inline-block;
+          font-size: 1.5rem;
+     }
+
+     footer {
+          height: 5%;
+          margin: 0;
+     }
+     #submit, #clear  {
+          width: 100px;
+          height: 30px;
+          font-size: 1rem;
+          margin: 5%;
+     }
+     #submit {
+          margin: 5% auto;
+     }
+}
+
+/* MOBILE LANDSCAPE MODE */
+@media (max-height: 500px) {
+     body * {
+          margin: 0;
+     }
+     #header {
+          height: 15%;
+          margin: 0;
+     }
+     header h1 {
+          font-size: 2rem;
+     }
+     aside {
+          width: 25%;
+          height: 10%;
+          margin: 0;
+          border: none;
+     }
+     aside h2 {
+          font-size: 2rem;
+     }
+     aside #orders {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+     }
+     aside #orders div h3 {
+          font-size: 1rem;
+     }
+     aside #orders div ul li {
+          font-size: 1rem;
+     }
+
+     main {
+          width: 75%;
+          height: 80%;
+          margin: 0;
+          border-top: none;
+          border-left: none;
+          display: flex;
+          justify-content: center;
+     }
+     main h2 {
+          font-size: 2rem;
+          margin-top: 5%;
+     }
+     .toppingsDiv {
+          display: flex;
+          flex-wrap: wrap;
+     }
+     .toppingsDiv .toppings {
+          flex: 2 0 50%;
+     }
+    
+     input[type="checkbox"] {
+          width: 30px;
+          height: 30px;
+          font-size: 2rem;
+          vertical-align: middle;
+     }
+     label {
+          display: inline-block;
+          font-size: 1.5rem;
+     }
+
+     footer {
+          height: 5%;
+          margin: 0;
+     }
+     #submit, #clear  {
+          width: 100px;
+          height: 30px;
+          font-size: 1rem;
+          margin: 5%;
+     }
+     #submit {
+          margin: 5% auto;
+     }
+}
+
