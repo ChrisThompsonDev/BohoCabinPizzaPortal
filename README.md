@@ -1,6 +1,6 @@
 # Boho Cabin Pizza Portal
 
-![screenshot](images/ScreenshotV1.PNG)
+![screenshot](images/bohoCabinPizzaPortal.gif)
 
 I love Pizza. It is hands Down my favorite food. That is a big problem for me for a few reasons; My family lives ina rural area with no delivery, and we are vegan. Because of this I have had to learn to make it myself. I decided to make a fun app so that we can sort of have the experieince of ordering online.
 
@@ -27,5 +27,13 @@ I have been so focused on Javascript lately that this project was a great refres
 
 ## Planned Updates
 ~~I will be updating this later with MediaQueries and a more flexible layout. I just wanted to get this live so that we could use it for our dinner this evening!~~
+
+UI improvements, including pictures instead of checkboxes. Similar to my [Animal Crossing App](https://github.com/ChrisThompsonDev/acnhMusicTracker)
+
+Adding user logins so we do not have to pass around the tablet.
+
+Adding an order progress tracker for each user.
+
+
 
 
